@@ -20,12 +20,12 @@ local b = w:CreateFolder("AutoFarm")
 local daynight = b:Label("NIGHT/DAY",{
 	TextSize = 22;
 	TextColor = Color3.fromRGB(255,255,255); 
-	BgColor = Color3.fromRGB(117, 50, 168);
+	BgColor = Color3.fromRGB(112, 112, 112);
 }) 
 b:Label("Night = NO QUESTS", {
 TextSize = 22;
 	TextColor = Color3.fromRGB(255,255,255); 
-	BgColor = Color3.fromRGB(117, 50, 168);
+	BgColor = Color3.fromRGB(112, 112, 112);
 }) 
 
 local autofarm
@@ -40,12 +40,12 @@ end)
 local disp = b:Label("QUESTS AMOUNT",{
 	TextSize = 22;
 	TextColor = Color3.fromRGB(255,255,255); 
-	BgColor = Color3.fromRGB(117, 50, 168);
+	BgColor = Color3.fromRGB(112, 112, 112);
 }) 
 local qdone = b:Label("Completed Quests", {
 TextSize = 22;
 	TextColor = Color3.fromRGB(255,255,255); 
-	BgColor = Color3.fromRGB(117, 50, 168);
+	BgColor = Color3.fromRGB(112, 112, 112);
 }) 
 local LEVEL = player.statz.lvl.lvl
 local questdone = 0
@@ -155,16 +155,16 @@ end)
 
 
 local f = w:CreateFolder("Credits")
-f:Label("made by reav#2966 | Shindo Life ver 045.3",{
+f:Label("made by Fearless#3506",{
 	TextSize = 15;
     TextColor = Color3.fromRGB(255,255,255); 
-    BgColor = Color3.fromRGB(117, 50, 168);
+    BgColor = Color3.fromRGB(112, 112, 112);
 }) 
-f:Label("https://discord.gg/aDRStgw",{
+f:Label("Nope",{
 	TextSize = 17;
     TextColor = Color3.fromRGB(255,255,255); 
-    BgColor = Color3.fromRGB(117, 50, 168); 
+    BgColor = Color3.fromRGB(112, 112, 112); 
 }) 
 f:Button("Copy Discord Link",function()
-	setclipboard("https://discord.gg/aDRStgw")
+	setclipboard("Nope")
 end)
